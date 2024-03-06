@@ -431,14 +431,14 @@ df_diff = df[~df['name'].isin(lake_locations['name'])]
 lake_locations = pd.concat([lake_locations, df_diff], ignore_index=True)
 
 # Drop outlines from lake_locations that are duplicative of SiegfiedFricker2018_outlines
-lake_locations_nonSF18 = lake_locations.copy(deep=True)
-lake_locations_nonSF18.drop(lake_locations_nonSF18.iloc[0:131].index, inplace=True)
+lake_locations_notSF18 = lake_locations.copy(deep=True)
+lake_locations_notSF18.drop(lake_locations_notSF18.iloc[0:131].index, inplace=True)
 
 # Sort geopandas geodataframe to alphabetize by lake name and reset index
-# lake_locations_nonSF18 = lake_locations_nonSF18.sort_values(by=['name'], ignore_index=True)
+# lake_locations_notSF18 = lake_locations_notSF18.sort_values(by=['name'], ignore_index=True)
 
 # Reset the index, dropping the old one
-lake_locations_notSF18 = lake_locations_nonSF18.reset_index(drop=True)
+lake_locations_notSF18 = lake_locations_notSF18.reset_index(drop=True)
 
 # + tags=[]
 # Display geodataframe
