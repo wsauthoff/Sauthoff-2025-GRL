@@ -1,2 +1,2 @@
-# Sauthoff-2023-journal
-Code for the data analysis and figure plotting in Sauthoff and others, 2024, journal-name-abbrev.
+# Sauthoff-2025-Journal_abbrevation
+Code for the data analysis and figure plotting in Sauthoff and others, 2025, journal-name-abbreviation.
