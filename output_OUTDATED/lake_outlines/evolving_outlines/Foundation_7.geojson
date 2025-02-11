@@ -1,8 +1,0 @@
-{
-"type": "FeatureCollection",
-"name": "Foundation_7",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3031" } },
-"features": [
-{ "type": "Feature", "properties": { "within_area_multiple": 16, "level": 0.18, "area (m^2)": 186527.49866628647, "dh (m)": -0.18762207, "vol (m^3)": -34996.67546998075, "midcyc_datetime": "2019-02-15T21:45:00", "row_index": 0, "within_percent": 96.0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -386793.214610414754134, 281920.938890564197209 ], [ -386945.369137262459844, 281760.664548413071316 ], [ -387862.738766285881866, 281920.938890564197209 ], [ -386945.369137262459844, 282091.708687590144109 ], [ -386793.214610414754134, 281920.938890564197209 ] ] ] } }
-]
-}
