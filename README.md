@@ -23,10 +23,15 @@ Code for the data analysis and figure plotting in Sauthoff and others, submitted
 * Notebook generates Figs. 2, 3, S2, and S3.
 
 ## Outputs
+* `cycle_dates.csv` is dataframe listing satellite cycle start and end datetimes from the multi-mission altimetry data set used for temporal analysis.
 * `CryoSat2_SARIn_mode_masks` folder contains polygons of the CryoSat-2 SARIn mode coverage areas used in Fig. 1.
 * `geometric_calcs` folder contains csv files of geometric variables (e.g., active area, dh, dV) for each re-examined active subglacial lake and continentally integrated summation files using four analysis approaches stored in subfolders:
     * `evolving_outlines_geom_calc`: evolving outlines, evolving outlines (forward filled)
     * `stationary_outline_geom_calc`: stationary outlines, evolving outlines union.]
 * `lake_outlines` folder contains geojson files of lake outlines organized in subfolders:
     * `evolving_outlines`: evolving outlines for each re-examined lakes (including a 'forward_fill' subfolder for that analysis approach).
-    * `stationary_outlines`: three files for original stationary outlines, a revised version of the original stationary outlines that combines two lakes into one, and evolving outlines union.
+    * `stationary_outlines`: five files of stationary outlines served in geojson format
+        * Smith and others, 2009 inventory
+        * Siegfried and Fricker, 2018 inventory
+        * `stationary_outlines_gdf`: stationary outlines collated from two prior outline inventories, an inventory with only point locations, and individual studies since inventories 
+        * `reexamined_stationary_outlines_gdf`: revised version of the original stationary outlines that only includes lakes re-examined in this study
