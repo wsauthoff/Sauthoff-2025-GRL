@@ -1,5 +1,9 @@
 # Sauthoff-2025-GRL
-Code for the data analysis and figure plotting in Sauthoff and others, submitted, _Geophysical Research Letters_. 
+Code for the data analysis and figure plotting in Sauthoff et al., submitted to _Geophysical Research Letters_. 
+
+## Licenses
+- **Code**: Licensed under GNU GPL v3 (see LICENSE-CODE)
+- **Data**: Licensed under CC BY 4.0 (see LICENSE-DATA)
 
 ## Inputs
 * `CryoSat2_mode_masks` folder contains mode masks used to determine when SARIn mode expanded.
