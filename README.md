@@ -4,8 +4,8 @@
 Code for the data analysis and figure plotting in Sauthoff et al., submitted to _Geophysical Research Letters_. 
 
 ## Licenses
-- **Code**: Licensed under GNU GPL v3 (see LICENSE-CODE)
-- **Data**: Licensed under CC BY 4.0 (see LICENSE-DATA)
+- **Code**: Licensed under GPL-3.0 (see LICENSE-CODE)
+- **Data**: Licensed under CC-BY-SA-4.0 (see LICENSE-DATA)
 
 ## /Input
 * `CryoSat2_mode_masks` folder contains mode masks used to determine when SARIn mode expanded.
