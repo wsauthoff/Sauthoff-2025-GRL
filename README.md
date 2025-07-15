@@ -7,7 +7,7 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
 - **Code**: Licensed under GNU GPL v3 (see LICENSE-CODE)
 - **Data**: Licensed under CC BY 4.0 (see LICENSE-DATA)
 
-## Inputs
+## /Input
 * `CryoSat2_mode_masks` folder contains mode masks used to determine when SARIn mode expanded.
 * `lake_outlines` folder contains active lake outlines from publicly available data sets or via correspondence with authors.
 
@@ -28,7 +28,7 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
 ### Figs23_S23_lake_reexamination_results.ipynb
 * Notebook generates Figs. 2, 3, S2, and S3.
 
-## Outputs
+## /Output
 * `cycle_dates.csv` is dataframe listing satellite cycle start and end datetimes from the multi-mission altimetry data set used for temporal analysis.
 * `CryoSat2_SARIn_mode_masks` folder contains polygons of the CryoSat-2 SARIn mode coverage areas used in Fig. 1.
 * `geometric_calcs` folder contains csv files of geometric variables (e.g., active area, dh, dV) for each re-examined active subglacial lake and continentally integrated summation files using four analysis approaches stored in subfolders:
@@ -41,3 +41,7 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
         * Siegfried and Fricker, 2018 inventory
         * `stationary_outlines_gdf`: stationary outlines collated from two prior outline inventories, an inventory with only point locations, and individual studies since inventories 
         * `reexamined_stationary_outlines_gdf`: revised version of the original stationary outlines that only includes lakes re-examined in this study
+
+## Misc
+* .pre-commit-config.yaml and clean_commit.sh are used to commit output-free python notebooks
+* .gitignore lists file types not committed to Git
