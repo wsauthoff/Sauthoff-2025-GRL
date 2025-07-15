@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15758712.svg)](https://doi.org/10.5281/zenodo.15758712)
+
 # Sauthoff-2025-GRL
 Code for the data analysis and figure plotting in Sauthoff et al., submitted to _Geophysical Research Letters_. 
 
