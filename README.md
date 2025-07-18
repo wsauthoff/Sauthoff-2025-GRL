@@ -20,7 +20,7 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
 * Notebook pre-processes altimetry data sets to construct a multi-mission CryoSat-2 to ICESat-2 (2010 to present) time series.
 
 ### Fig1_subglacial_lake_distribution.ipynb
-* Notebok generates Fig. 1.
+* Notebook generates Fig. 1.
 
 ### FigS1_lake_reexamination_methods.ipynb
 * Notebook does data analysis to re-examine previously identified active subglacial lakes and creates Fig. S1 plotting the lake re-examination methods.
