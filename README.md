@@ -43,5 +43,5 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
         * `reexamined_stationary_outlines_gdf`: revised version of the original stationary outlines that only includes lakes re-examined in this study
 
 ## Misc
-* .pre-commit-config.yaml and clean_commit.sh are used to commit output-free python notebooks
+* ./clean_commit.sh shell script is used to ensure Jupyter notebooks are saved without cell outputs. In terminal, run `./clean_commit.sh` to execute, which will use a hidden file, .pre-commit-config.yaml, to accomplish this.
 * .gitignore lists file types not committed to Git
