@@ -3,6 +3,6 @@ repos:
     hooks:
       - id: clear-notebook-outputs
         name: Clear Jupyter Notebook outputs
-        entry: jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace
+        entry: bash -c 'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace "$@" && git add "$@"'
         language: system
         types: [jupyter]
