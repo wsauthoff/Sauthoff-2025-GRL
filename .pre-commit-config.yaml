@@ -1,8 +1,15 @@
 repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0  # or latest stable
+    hooks:
+      - id: check-added-large-files  # optional, keeps repo light
+
   - repo: local
     hooks:
       - id: clear-notebook-outputs
         name: Clear Jupyter Notebook outputs
+        # Clear outputs in-place and stage the cleaned notebooks
         entry: bash -c 'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace "$@" && git add "$@"'
         language: system
         types: [jupyter]
+        require_serial: true
