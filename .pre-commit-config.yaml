@@ -9,7 +9,7 @@ repos:
       - id: clear-notebook-outputs
         name: Clear Jupyter Notebook outputs
         # Clear outputs in-place and stage the cleaned notebooks
-        entry: bash -c 'jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace "$@" && git add "$@"'
+        entry: bash -c 'jupyter nbconvert --clear-output --inplace "$@" && git add "$@"' --
         language: system
         types: [jupyter]
         require_serial: true
