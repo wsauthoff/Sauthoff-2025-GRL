@@ -45,3 +45,6 @@ Code for the data analysis and figure plotting in Sauthoff et al., submitted to 
 ## Misc
 * ./clean_commit.sh shell script is used to ensure Jupyter notebooks are saved without cell outputs. In terminal, run `./clean_commit.sh` to execute, which will use a hidden file, .pre-commit-config.yaml, to accomplish this.
 * .gitignore lists file types not committed to Git
+
+## Notes
+* Throughout notebooks the "updated stationary outline" is referred to using "evolving outlines union outline" or a variant that was based on its methodological construction. During peer review "evolving outlines union outline" was changed to "updated stationary outline" for simplicity and clarity, but was mostly not changed in the codebased to avoid breaking the code.
