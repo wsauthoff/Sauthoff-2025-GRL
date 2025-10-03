@@ -1,0 +1,12 @@
+mid_pt_datetime,evolving_outlines_area (m^2),evolving_outlines_dh (m),evolving_outlines_region_dh (m),evolving_outlines_dh_corr (m),evolving_outlines_dV_corr (m^3),date,mid_pt_datetime_CS2,evolving_outlines_area (m^2)_CS2,evolving_outlines_dh (m)_CS2,evolving_outlines_region_dh (m)_CS2,evolving_outlines_dh_corr (m)_CS2,evolving_outlines_dV_corr (m^3)_CS2,name
+2019-01-01 00:00:00,12539924,0.33,0.1,0.23,2884183,2019-01-01,2019-01-01 00:00:00,0.0,0.0,0.1,0.0,0.0,UpperSubglacialLakeConway
+2019-04-02 13:30:00,0,0.0,0.16,0.0,0,2019-04-02,2019-04-02 06:00:00,0.0,0.0,0.11,0.0,0.0,UpperSubglacialLakeConway
+2019-07-02 21:00:00,0,0.0,0.09,0.0,0,2019-07-02,2019-07-02 12:00:00,0.0,0.0,0.12,0.0,0.0,UpperSubglacialLakeConway
+2019-10-02 04:30:00,11569700,0.3,0.22,0.08,925576,2019-10-02,2019-10-01 18:00:00,0.0,0.0,0.13,0.0,0.0,UpperSubglacialLakeConway
+2020-01-01 12:00:00,13842675,0.31,0.07,0.24,3322242,2020-01-01,2020-01-01 00:00:00,0.0,0.0,0.13,0.0,0.0,UpperSubglacialLakeConway
+2020-04-01 19:30:00,274891100,0.43,0.16,0.27,74220597,2020-04-01,2020-04-01 12:00:00,4055692.0,0.3,0.12,0.18,730025.0,UpperSubglacialLakeConway
+2020-07-02 03:00:00,72662311,-0.35,0.13,-0.48,-34877909,2020-07-02,2020-07-02 00:00:00,0.0,0.0,0.11,0.0,0.0,UpperSubglacialLakeConway
+2020-10-01 10:30:00,0,0.0,0.11,0.0,0,2020-10-01,2020-10-01 12:00:00,0.0,0.0,0.1,0.0,0.0,UpperSubglacialLakeConway
+2020-12-31 18:00:00,154505276,0.41,0.05,0.36,55621899,2020-12-31,2021-01-01 00:00:00,0.0,0.0,0.09,0.0,0.0,UpperSubglacialLakeConway
+2021-04-02 01:30:00,4598983,-0.3,0.03,-0.33,-1517664,2021-04-02,2021-04-02 06:00:00,0.0,0.0,0.09,0.0,0.0,UpperSubglacialLakeConway
+2021-07-02 09:00:00,15535449,0.31,0.23,0.08,1242836,2021-07-02,2021-07-02 12:00:00,0.0,0.0,0.09,0.0,0.0,UpperSubglacialLakeConway
