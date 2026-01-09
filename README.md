@@ -1,7 +1,8 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15758712.svg)](https://doi.org/10.5281/zenodo.15758712)
+[![DOI](https://img.shields.io/badge/DOI-10.1029%2F2025GL117121-blue.svg)](https://doi.org/10.1029/2025GL117121)
 
 # Sauthoff-2025-GRL
-Code for the data analysis and figure plotting in Sauthoff et al., submitted to _Geophysical Research Letters_. 
+Code and Data for Sauthoff et al., (2026) "Dynamic Boundaries of Antarctic Active Subglacial Lakes Reveal Underestimated Water Volume Change and Overestimated Lakebed Active Area" in _Geophysical Research Letters_.
 
 ## Licenses
 - **Code**: Licensed under GPL-3.0 (see LICENSE-CODE)
