@@ -3,6 +3,7 @@ repos:
     rev: v6.0.0  # or latest stable
     hooks:
       - id: check-added-large-files  # optional, keeps repo light
+        args: ['--maxkb=2000']
 
   - repo: local
     hooks:
