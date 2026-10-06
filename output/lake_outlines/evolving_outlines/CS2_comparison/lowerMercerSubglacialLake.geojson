@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "LowerMercerSubglacialLake",
+"name": "lowerMercerSubglacialLake",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3031" } },
 "features": [
 { "type": "Feature", "properties": { "mid_pt_datetime": "2019-10-01T18:00:00", "area (m^2)": 1691377.1849365234, "uncorr dh (m)": 0.29844713, "within_area_multiple": 11, "level": 0.28, "row_index": 0 }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -282000.000000000814907, -501639.290760856296401 ], [ -282599.579187533759978, -502000.000000001280569 ], [ -282436.40474700066261, -503028.893449032388162 ], [ -282000.000000000814907, -503425.500891365285497 ], [ -281208.913365116808563, -503028.893449032388162 ], [ -281545.343001131433994, -502000.000000001280569 ], [ -282000.000000000814907, -501639.290760856296401 ] ] ] } },

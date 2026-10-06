@@ -70,6 +70,16 @@ and an Arthur and others, 2025 lake), so match on `old_name` together with `cite
     - distance is the straight-line distance (km, rounded) from the lake outline's centroid to
       the nearest point on that segment.
   - The rename changes no data.
+  - The published Supporting Information (Table S1) describes these names as a "JG" prefix
+    with the distance from the grounding line. v1.1 uses the basin name, `Jutulstraumen`, as
+    the prefix instead, matching the `{ice shelf}_{distance}` names of the Arthur and others
+    (2025) lakes.
+- **lower Conway, lower Mercer and upper Engelhardt subglacial lakes.** Renamed
+  `LowerConwaySubglacialLake` → `lowerConwaySubglacialLake`,
+  `LowerMercerSubglacialLake` → `lowerMercerSubglacialLake` and
+  `UpperEngelhardtSubglacialLake` → `upperEngelhardtSubglacialLake`, in the inventories and in
+  every output file named after them. This matches the published Supporting Information,
+  Table S1, which writes "lower" and "upper" in lowercase.
 
     | v1.0 | v1.1 |
     |---|---|
