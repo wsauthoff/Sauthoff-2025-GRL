@@ -1,0 +1,7 @@
+old_name,new_name,version,rule
+JG_Combined_D2_b_E1,Jutulstraumen_163,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
+JG_D2_a,Jutulstraumen_162,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
+JG_D1_b,Jutulstraumen_166,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
+JG_D1_a,Jutulstraumen_169,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
+JG_Combined_E2_F2,Jutulstraumen_174,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
+JG_F1,Jutulstraumen_187,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
