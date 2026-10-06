@@ -57,6 +57,8 @@ and an Arthur and others, 2025 lake), so match on `old_name` together with `cite
   - Added `Lazarevisen_32`, published as L1 and renamed by the same rule. v1.0 left it out of
     the inventory and the re-examined lakes by mistake, because its label duplicates a Wingham
     and others (2006) lake, L1, which keeps its name.
+  - `0_lake_locations.ipynb` now stops with an error when a source lake shares a name with a
+    lake already in the inventory, instead of skipping it as a duplicate.
 - **Neckel and others (2021), Jutulstraumen Glacier.**
   - That study labeled its six lakes only by figure panel, which v1.0 used as `JG_` + panel
     label.
