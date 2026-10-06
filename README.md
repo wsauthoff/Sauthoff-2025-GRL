@@ -6,7 +6,7 @@ Code and Data for Sauthoff et al., (2026) "Dynamic Boundaries of Antarctic Activ
 
 ## Versions
 The Zenodo DOI in the badge above always resolves to the latest version. See [CHANGELOG.md](CHANGELOG.md) for details of each version.
-* **v1.1** (in preparation): version for the published paper. It includes the revisions made in response to peer review: reprocessed geometric calculations, new and revised figures, and terminology matching the paper. It also renames some lakes from prior studies; `output/lake_outlines/renamed_lakes.csv` maps their earlier labels to the new names.
+* **v1.1** (2026-10-06): version for the published paper. It includes the revisions made in response to peer review: reprocessed geometric calculations, new and revised figures, and terminology matching the paper. It also renames some lakes from prior studies; `output/lake_outlines/renamed_lakes.csv` maps their earlier labels to the new names.
 * **v1.0**: version archived with the paper when it was submitted for peer review (doi:10.5281/zenodo.15758712).
 
 ## Licenses
