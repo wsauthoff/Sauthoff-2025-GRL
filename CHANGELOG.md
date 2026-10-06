@@ -22,6 +22,8 @@ Version for the published paper, with the revisions made in response to peer rev
   - individual-lake dV and dV bias time series;
   - Fig. S5.
 - Revised Figs. 3 and S1.
+- Renamed `Figs23_S23_lake_reexamination_results.ipynb` to
+  `Figs23_S2-6_lake_reexamination_results.ipynb`, since it now generates Figs. S2–S6.
 
 ### GRL cover image
 - Added `GRL_cover_image.ipynb`, the notebook that generated the cover image submitted with the

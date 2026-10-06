@@ -31,8 +31,8 @@ The Zenodo DOI in the badge above always resolves to the latest version. See [CH
 ### FigS1_lake_reexamination_methods.ipynb
 * Notebook does data analysis to re-examine previously identified active subglacial lakes and creates Fig. S1 plotting the lake re-examination methods.
 
-### Figs23_S23_lake_reexamination_results.ipynb
-* Notebook generates Figs. 2, 3, S2, and S3.
+### Figs23_S2-6_lake_reexamination_results.ipynb
+* Notebook generates Figs. 2, 3, and S2–S6.
 
 ### GRL_cover_image.ipynb
 * Notebook generates the cover image submitted with the paper: evolving outlines of the Mercer and Whillans ice stream lakes, draped on the ice surface above their lakebed active area frequency.
