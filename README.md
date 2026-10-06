@@ -34,6 +34,9 @@ The Zenodo DOI in the badge above always resolves to the latest version. See [CH
 ### Figs23_S23_lake_reexamination_results.ipynb
 * Notebook generates Figs. 2, 3, S2, and S3.
 
+### GRL_cover_image.ipynb
+* Notebook generates the cover image submitted with the paper: evolving outlines of the Mercer and Whillans ice stream lakes, draped on the ice surface above their lakebed active area frequency.
+
 ## /Output
 * `cycle_dates.csv` is dataframe listing satellite cycle start and end datetimes from the multi-mission altimetry data set used for temporal analysis.
 * `CryoSat2_SARIn_mode_masks` folder contains polygons of the CryoSat-2 SARIn mode coverage areas used in Fig. 1.

@@ -23,6 +23,10 @@ Version for the published paper, with the revisions made in response to peer rev
   - Fig. S5.
 - Revised Figs. 3 and S1.
 
+### GRL cover image
+- Added `GRL_cover_image.ipynb`, the notebook that generated the cover image submitted with the
+  paper (previously kept outside this repository).
+
 ### Terminology
 - Terminology follows the published paper: "updated stationary outline" (see the README Notes).
   Output files were renamed to match.
