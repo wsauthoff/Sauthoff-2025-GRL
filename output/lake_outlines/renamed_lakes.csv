@@ -1,4 +1,10 @@
 old_name,new_name,version,rule
+M1,Muninisen_5,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
+M2,Muninisen_15,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
+R1,Roi_Baudouin_19,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
+R2,Roi_Baudouin_115,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
+R3,Roi_Baudouin_136,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
+V1,Vigridisen_54,v1.1,"{ice shelf}_{distance from the grounding line, km, from Arthur and others (2025) Table 1}"
 JG_Combined_D2_b_E1,Jutulstraumen_163,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
 JG_D2_a,Jutulstraumen_162,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
 JG_D1_b,Jutulstraumen_166,v1.1,"{basin}_{centroid distance to the pour point's grounding-line segment, km}"
