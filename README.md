@@ -6,7 +6,7 @@ Code and Data for Sauthoff et al., (2026) "Dynamic Boundaries of Antarctic Activ
 
 ## Versions
 The Zenodo DOI in the badge above always resolves to the latest version. See [CHANGELOG.md](CHANGELOG.md) for details of each version.
-* **v1.1** (in preparation): version for the published paper. It includes the revisions made in response to peer review: reprocessed geometric calculations, new and revised figures, and terminology matching the paper. It also renames some lakes from prior studies; `output/lake_outlines/renamed_lakes.csv` maps the old names to the new ones.
+* **v1.1** (in preparation): version for the published paper. It includes the revisions made in response to peer review: reprocessed geometric calculations, new and revised figures, and terminology matching the paper. It also renames some lakes from prior studies; `output/lake_outlines/renamed_lakes.csv` maps their earlier labels to the new names.
 * **v1.0**: version archived with the paper when it was submitted for peer review (doi:10.5281/zenodo.15758712).
 
 ## Licenses
@@ -40,7 +40,7 @@ The Zenodo DOI in the badge above always resolves to the latest version. See [CH
 * `geometric_calcs` folder contains csv files of geometric variables (e.g., active area, dh, dV) for each re-examined active subglacial lake and continentally integrated summation files using four analysis approaches stored in subfolders:
     * `evolving_outlines_geom_calc`: evolving outlines, evolving outlines (forward filled)
     * `stationary_outline_geom_calc`: stationary outlines, evolving outlines union.]
-* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders, plus `renamed_lakes.csv`, which maps each lake name changed since v1.0 to its current name (old name, new name, version, naming rule):
+* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders, plus `renamed_lakes.csv`, which maps each renamed lake's earlier label (its v1.0 name or source-study label) to its current name. Columns are old name, source citation, new name, version and naming rule. Match on old name and citation together, because labels repeat across studies:
     * `evolving_outlines`: evolving outlines for each re-examined lakes (including a 'forward_fill' subfolder for that analysis approach).
     * `stationary_outlines`: five files of stationary outlines served in geojson format
         * Smith and others, 2009 inventory

@@ -28,8 +28,10 @@ Version for the published paper, with the revisions made in response to peer rev
   Output files were renamed to match.
 
 ### Lake names
-`output/lake_outlines/renamed_lakes.csv` maps every v1.0 lake name changed in v1.1 to its new
-name.
+`output/lake_outlines/renamed_lakes.csv` maps each renamed lake's earlier label to its name in
+v1.1. An earlier label is the name the lake had in v1.0 or, for a lake added in v1.1, its label in
+the source study. Labels can repeat across studies (L1 is both a Wingham and others, 2006 lake
+and an Arthur and others, 2025 lake), so match on `old_name` together with `cite`.
 
 - **Site_B and Site_C.** The re-examination products (evolving outlines and geometric
   calculations) treat them as one lake, Site_BC. The inventory keeps them as separate rows.
@@ -46,10 +48,11 @@ name.
     | `R2` | `Roi_Baudouin_115` |
     | `R3` | `Roi_Baudouin_136` |
     | `V1` | `Vigridisen_54` |
+    | `L1` (not in v1.0) | `Lazarevisen_32` |
 
-  - Added `Lazarevisen_32`, published as L1. v1.0 left it out of the inventory and the
-    re-examined lakes by mistake, because its label duplicates a Wingham and others (2006) lake,
-    L1. It is new in v1.1 rather than renamed, so it is not in `renamed_lakes.csv`.
+  - Added `Lazarevisen_32`, published as L1 and renamed by the same rule. v1.0 left it out of
+    the inventory and the re-examined lakes by mistake, because its label duplicates a Wingham
+    and others (2006) lake, L1, which keeps its name.
 - **Neckel and others (2021), Jutulstraumen Glacier.**
   - That study labeled its six lakes only by figure panel, which v1.0 used as `JG_` + panel
     label.
