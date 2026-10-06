@@ -4,6 +4,21 @@
 # Sauthoff-2025-GRL
 Code and Data for Sauthoff et al., (2026) "Dynamic Boundaries of Antarctic Active Subglacial Lakes Reveal Underestimated Water Volume Change and Overestimated Lakebed Active Area" in _Geophysical Research Letters_.
 
+## Versions
+* **v1.1** (in preparation): renames the six Neckel and others (2021) Jutulstraumen Glacier lakes. That study labeled its lakes only by figure panel, which v1.0 used as `JG_` + panel label. In v1.1 each is named `{basin}_{distance}`: basin is the MEaSUREs refined drainage basin whose grounding-line segment is nearest the lake's subglacial-water-routing pour point, and distance is the straight-line distance (km, rounded) from the lake outline's centroid to the nearest point on that segment. Lake data and geometric calculations are otherwise unchanged from v1.0.
+
+    | v1.0 | v1.1 |
+    |---|---|
+    | `JG_D2_a` | `Jutulstraumen_162` |
+    | `JG_Combined_D2_b_E1` | `Jutulstraumen_163` |
+    | `JG_D1_b` | `Jutulstraumen_166` |
+    | `JG_D1_a` | `Jutulstraumen_169` |
+    | `JG_Combined_E2_F2` | `Jutulstraumen_174` |
+    | `JG_F1` | `Jutulstraumen_187` |
+
+    The same mapping is in `output/lake_outlines/renamed_lakes.csv`.
+* **v1.0**: version archived with the paper when it was submitted for peer review.
+
 ## Licenses
 - **Code**: Licensed under GPL-3.0 (see LICENSE-CODE)
 - **Data**: Licensed under CC-BY-SA-4.0 (see LICENSE-DATA)
@@ -35,7 +50,7 @@ Code and Data for Sauthoff et al., (2026) "Dynamic Boundaries of Antarctic Activ
 * `geometric_calcs` folder contains csv files of geometric variables (e.g., active area, dh, dV) for each re-examined active subglacial lake and continentally integrated summation files using four analysis approaches stored in subfolders:
     * `evolving_outlines_geom_calc`: evolving outlines, evolving outlines (forward filled)
     * `stationary_outline_geom_calc`: stationary outlines, evolving outlines union.]
-* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders:
+* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders, plus `renamed_lakes.csv`, which maps lake names changed since v1.0 (old name, new name, version, naming rule):
     * `evolving_outlines`: evolving outlines for each re-examined lakes (including a 'forward_fill' subfolder for that analysis approach).
     * `stationary_outlines`: five files of stationary outlines served in geojson format
         * Smith and others, 2009 inventory
