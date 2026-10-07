@@ -1,0 +1,32 @@
+{
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Sauthoff, Wilson",
+      "affiliation": "Colorado School of Mines",
+      "orcid": "0000-0001-9683-1578"
+    },
+    {
+      "name": "Siegfried, Matthew",
+      "affiliation": "Colorado School of Mines",
+      "orcid": "0000-0002-0868-4633"
+    }
+  ],
+  "license": "gpl-3.0",
+  "notes": "Dual licensed: the code is under GPL-3.0 (LICENSE-CODE) and the data under CC-BY-SA-4.0 (LICENSE-DATA). Zenodo's GitHub integration records a single license, so CC-BY-SA-4.0 is added to each version's record by hand.",
+  "related_identifiers": [
+    {
+      "identifier": "10.1029/2025GL117121",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "keywords": [
+    "Antarctica",
+    "active subglacial lakes",
+    "satellite altimetry",
+    "ICESat-2",
+    "CryoSat-2"
+  ]
+}
