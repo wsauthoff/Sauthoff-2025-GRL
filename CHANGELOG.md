@@ -89,12 +89,12 @@ others, 2025 lake), so match on a label together with `cite`.
     | `JG_Combined_E2_F2` | `Jutulstraumen_174` |
     | `JG_F1` | `Jutulstraumen_187` |
 
-- **lower Conway, lower Mercer and upper Engelhardt subglacial lakes.** Renamed
-  `LowerConwaySubglacialLake` → `lowerConwaySubglacialLake`,
-  `LowerMercerSubglacialLake` → `lowerMercerSubglacialLake` and
-  `UpperEngelhardtSubglacialLake` → `upperEngelhardtSubglacialLake`, in the inventories and in
-  every output file named after them. This matches the published Supporting Information,
-  Table S1, which writes "lower" and "upper" in lowercase.
+- **Lower Conway, Lower Mercer and Upper Engelhardt subglacial lakes** keep their v1.0 names
+  (`LowerConwaySubglacialLake`, `LowerMercerSubglacialLake`, `UpperEngelhardtSubglacialLake`).
+  Siegfried and Fricker (2021) publish "Lower Conway Subglacial Lake" and "Lower Mercer
+  Subglacial Lake" with a capital L. The published Supporting Information (Table S1) writes
+  "lower" and "upper" in lowercase. This repository follows Siegfried and Fricker's capitalization,
+  and capitalizes Upper Engelhardt to match (Freer and others, 2024, did not name that lake).
 
 ### Repository history
 - Three commit messages misspell Arthur as "Arther": `c48db75` (2025-10-27), and `c6e191b`
