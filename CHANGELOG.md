@@ -6,6 +6,8 @@ always resolves to the latest version; each version also has its own DOI.
 
 ## v1.1 (2026-10-07)
 
+doi:10.5281/zenodo.23217211
+
 Version for the published paper, with the revisions made in response to peer review.
 
 ### Geometric calculations
