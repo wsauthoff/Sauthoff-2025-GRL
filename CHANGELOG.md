@@ -34,10 +34,15 @@ Version for the published paper, with the revisions made in response to peer rev
   Output files were renamed to match.
 
 ### Lake names
-`output/lake_outlines/renamed_lakes.csv` maps each renamed lake's earlier label to its name in
-v1.1. An earlier label is the name the lake had in v1.0 or, for a lake added in v1.1, its label in
-the source study. Labels can repeat across studies (L1 is both a Wingham and others, 2006 lake
-and an Arthur and others, 2025 lake), so match on `old_name` together with `cite`.
+`output/lake_outlines/renamed_lakes.csv` lists each renamed lake with:
+- `v1.0_name`: its name in v1.0. Empty for a lake added in v1.1.
+- `source_label`: its label in the source study or that study's data set, as published. Empty
+  where the study gave none: the two Jutulstraumen unions made in this repository, and the
+  Engelhardt feeder lake, which Freer and others (2024) only describe.
+- `cite`, `new_name`, `version`, `rule`, and a `note` explaining empty or unusual entries.
+
+Labels repeat across studies (L1 is both a Wingham and others, 2006 lake and an Arthur and
+others, 2025 lake), so match on a label together with `cite`.
 
 - **Site_B and Site_C.** The re-examination products (evolving outlines and geometric
   calculations) treat them as one lake, Site_BC. The inventory keeps them as separate rows.

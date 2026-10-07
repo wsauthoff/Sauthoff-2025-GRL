@@ -43,7 +43,7 @@ The Zenodo DOI in the badge above always resolves to the latest version. See [CH
 * `geometric_calcs` folder contains csv files of geometric variables (e.g., active area, dh, dV) for each re-examined active subglacial lake and continentally integrated summation files using four analysis approaches stored in subfolders:
     * `evolving_outlines_geom_calc`: evolving outlines, evolving outlines (forward filled)
     * `stationary_outline_geom_calc`: stationary outlines, evolving outlines union.]
-* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders, plus `renamed_lakes.csv`, which maps each renamed lake's earlier label (its v1.0 name or source-study label) to its current name. Columns are old name, source citation, new name, version and naming rule. Match on old name and citation together, because labels repeat across studies:
+* `lake_outlines` folder contains geojson files of lake outlines organized in subfolders, plus `renamed_lakes.csv`, which lists each renamed lake's v1.0 name, its label in the source study, the source citation, its current name, the version and the naming rule. Match on a name or label together with the citation, because labels repeat across studies:
     * `evolving_outlines`: evolving outlines for each re-examined lakes (including a 'forward_fill' subfolder for that analysis approach).
     * `stationary_outlines`: five files of stationary outlines served in geojson format
         * Smith and others, 2009 inventory
