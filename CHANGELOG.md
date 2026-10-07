@@ -28,6 +28,12 @@ Version for the published paper, with the revisions made in response to peer rev
 ### GRL cover image
 - Added `GRL_cover_image.ipynb`, the notebook that generated the cover image submitted with the
   paper (previously kept outside this repository).
+- Its terrain surface is ICESat-2 ATL14 v004 (doi:10.5067/ATLAS/ATL14.004), quadrant A3, at
+  100 m. The submitted image used a time-mean CryoSat-2/ICESat-2 surface height that was never
+  archived and can't be recovered. The ATL14 version matches the submitted image at full
+  resolution, with 0.93% of pixels differing by more than 10 grey levels.
+- The figure is now saved before `plt.show()`, so it saves correctly with any matplotlib
+  backend, not only the interactive widget backend.
 
 ### Terminology
 - Terminology follows the published paper: "updated stationary outline" (see the README Notes).
