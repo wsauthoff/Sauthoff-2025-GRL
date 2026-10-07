@@ -4,7 +4,7 @@ Versions of the code and data for Sauthoff and others (2026), *Geophysical Resea
 (doi:10.1029/2025GL117121), archived on Zenodo. The concept DOI, doi:10.5281/zenodo.15758711,
 always resolves to the latest version; each version also has its own DOI.
 
-## v1.1 (2026-10-06)
+## v1.1 (2026-10-07)
 
 Version for the published paper, with the revisions made in response to peer review.
 
