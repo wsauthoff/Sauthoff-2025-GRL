@@ -74,12 +74,6 @@ and an Arthur and others, 2025 lake), so match on `old_name` together with `cite
     with the distance from the grounding line. v1.1 uses the basin name, `Jutulstraumen`, as
     the prefix instead, matching the `{ice shelf}_{distance}` names of the Arthur and others
     (2025) lakes.
-- **lower Conway, lower Mercer and upper Engelhardt subglacial lakes.** Renamed
-  `LowerConwaySubglacialLake` → `lowerConwaySubglacialLake`,
-  `LowerMercerSubglacialLake` → `lowerMercerSubglacialLake` and
-  `UpperEngelhardtSubglacialLake` → `upperEngelhardtSubglacialLake`, in the inventories and in
-  every output file named after them. This matches the published Supporting Information,
-  Table S1, which writes "lower" and "upper" in lowercase.
 
     | v1.0 | v1.1 |
     |---|---|
@@ -89,6 +83,13 @@ and an Arthur and others, 2025 lake), so match on `old_name` together with `cite
     | `JG_D1_a` | `Jutulstraumen_169` |
     | `JG_Combined_E2_F2` | `Jutulstraumen_174` |
     | `JG_F1` | `Jutulstraumen_187` |
+
+- **lower Conway, lower Mercer and upper Engelhardt subglacial lakes.** Renamed
+  `LowerConwaySubglacialLake` → `lowerConwaySubglacialLake`,
+  `LowerMercerSubglacialLake` → `lowerMercerSubglacialLake` and
+  `UpperEngelhardtSubglacialLake` → `upperEngelhardtSubglacialLake`, in the inventories and in
+  every output file named after them. This matches the published Supporting Information,
+  Table S1, which writes "lower" and "upper" in lowercase.
 
 ## v1.0 (2025-06-27)
 
