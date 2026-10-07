@@ -91,6 +91,11 @@ and an Arthur and others, 2025 lake), so match on `old_name` together with `cite
   every output file named after them. This matches the published Supporting Information,
   Table S1, which writes "lower" and "upper" in lowercase.
 
+### Repository history
+- Three commit messages misspell Arthur as "Arther": `c48db75` (2025-10-27), and `c6e191b`
+  and `468a5b2` (2026-01-17). They refer to Arthur and others (2025). The history was left
+  unchanged, and the files themselves use the correct spelling.
+
 ## v1.0 (2025-06-27)
 
 Version archived with the paper when it was submitted for peer review
